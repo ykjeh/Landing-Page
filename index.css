@@ -409,6 +409,12 @@ footer p {
     }
 
     .Sobre, .Hobbies{
-        max-width: 90%;
+        max-width: 85%;
         margin: 0 auto;
-}
+   }
+    .skill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
