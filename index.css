@@ -407,4 +407,8 @@ footer p {
     .skills-grid{
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .Sobre, .Hobbies{
+        max-width: 90%;
+        margin: 0 auto;
 }
