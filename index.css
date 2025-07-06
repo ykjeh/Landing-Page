@@ -412,9 +412,12 @@ footer p {
         max-width: 80%;
         margin: 0 auto;
    }
-    .skill{
+    .skills{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        gap: 20px;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
     }
