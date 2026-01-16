@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(91, 145, 245);
+    /* background-color: rgb(91, 145, 245); */
+    background-color: #2f2f30;
     color: white
 
 }
@@ -12,13 +13,13 @@ header img{
     height: 170px;
     border-radius: 50%;
     border: 3px solid;
-    border-color: rgb(36, 55, 175);
+    border-color: rgb(241, 241, 241);
     margin: 4px;
 
 }
 
 header h5{
-    color: rgb(48, 150, 240);
+    color: rgb(48, 150, 240); */
 }
 
 header h2{
@@ -32,7 +33,7 @@ header h2{
     right: 0;
     margin: 1rem auto;*/
     border-radius: 15px;
-    background-color: aliceblue;
+    background-color: rgba(30, 30, 31, 0.658);
     padding: 0.3rem;
     border: 2px solid rgb(44, 78, 187);
     text-align: center;
@@ -53,6 +54,7 @@ header h2{
     padding: 10px 4px;
     border-radius: 15px;
     border: 2px solid rgb(12, 38, 209);
+    /* border: #f5f5f5;*/ 
 
 }
 
@@ -69,7 +71,7 @@ header h2{
     border-radius: 15px;
     color: rgb(57, 104, 231);
     padding: 1rem 2rem;
-    border: 2px solid rgb(12, 38, 209);
+    border: 2px solid rgb(224, 224, 224);
 
 }
 
@@ -166,7 +168,8 @@ header h2, p{
     margin-bottom: 5px;
     color: rgb(8, 8, 8);
     border-radius: 13px;
-    border: 2px solid rgb(12, 38, 209);
+    /* border: 2px solid rgb(12, 38, 209); */
+    border: 2px solid #f0f0f0;
     padding: 0.1em;
     margin-top: 0.4rem;
 }
@@ -218,7 +221,7 @@ header h2, p{
     color: rgb(83, 18, 204);
     background-color: aliceblue;
     border-radius: 30rem;
-    border: 3px solid rgb(4, 62, 112);
+    border: 3px solid rgb(49, 49, 49);
     padding: 0.4rem 3rem;
     display: inline-block;
     margin-bottom: 1rem;
@@ -247,7 +250,7 @@ header h2, p{
     color: rgb(50, 15, 146);
     padding: 1rem;
     border-radius: 15px;
-    border: 2px solid rgb(44, 78, 187);
+    border: 2px solid rgb(231, 232, 233);
     flex: 6;
     min-width: 250px;
 }
@@ -262,33 +265,33 @@ header h2, p{
 }
 
 .projetos{
-    border-left: 8px solid #2b0353;
+    border-left: 8px solid #451b6e;
     padding-left: 1rem;
     margin: 2rem auto;
     max-width: 800px;
-    box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 7px 6px rgb(44, 43, 43);
 
 }
 
 .projetos h4{
-    color: #283949;
+    color: #6fabe2;
     font-style: oblique;
 }
 
 .projetos h2{
-    color: #060607d7;
+    color: #ffffffd7;
     margin-bottom: 0.5rem;
 }
 
 .projetos h5{
-    color: #19202e;
+    color: #b8b9bb;
 }
 .projetos:hover h5{
-    color:#03315c
+    color:#b3d1e6
 }
 
 .projetos:hover h4{
-    color: rgb(81, 2, 170);
+    color: rgb(139, 75, 212);
 }
 
 footer{
@@ -420,3 +423,4 @@ footer p {
         text-align: center;
         margin: 0 auto;
     }
+}
